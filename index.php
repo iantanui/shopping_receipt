@@ -65,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <body>
 
-  <h1>Shopping Cart</h1>
+  <h1>Shopping App</h1>
 
   <form id="purchaseForm" action="index.php" method="POST">
     <label for="item">Select Item:</label>
@@ -97,7 +97,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     <div id="result"></div>
 
-    <button type="submit" id="submitButton" disabled>Submit Payment</button>
+    <button type="submit" id="submitButton" disabled>Process Payment</button>
   </form>
 
   <div id="receipt">
